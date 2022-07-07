@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* horizontale menu */
+
+nav {
+    /* margin: 25px; */
+    background: #f9f9f9;
+    /* padding: px; */
+}
+
+nav .menuItems {
+    list-style: none;
+    display: flex;
+}
+
+nav .menuItems li {
+    margin: 10px;
+}
+
+nav .menuItems li a {
+    text-decoration: none;
+    color: #8f8f8f;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
